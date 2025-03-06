@@ -6,6 +6,8 @@ public class Pila {
         Scanner sc = new Scanner(System.in);
         Stack<Integer> pila = new Stack();
         Utils utils = new Utils();
+        utils.mostrarPila(pila);
+        pila = utils.eliminarElemento(pila);
 
     }
 }
